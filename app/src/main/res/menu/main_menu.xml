@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/about_icon"
+        android:orderInCategory="160"
+        app:showAsAction="never"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/action_uninstall"
+        android:icon="@drawable/uninstall_icon"
+        android:orderInCategory="180"
+        app:showAsAction="never"
+        android:title="Uninstall"/>
+
+</menu>
